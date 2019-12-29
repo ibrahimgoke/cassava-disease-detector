@@ -188,9 +188,9 @@ public abstract class CameraActivity extends AppCompatActivity
 
 //    frameValueTextView = findViewById(R.id.frame_info);
 //    cropValueTextView = findViewById(R.id.crop_info);
-    cameraResolutionTextView = findViewById(R.id.view_info);
-    rotationTextView = findViewById(R.id.rotation_info);
-    inferenceTimeTextView = findViewById(R.id.inference_info);
+//    cameraResolutionTextView = findViewById(R.id.view_info);
+//    rotationTextView = findViewById(R.id.rotation_info);
+//    inferenceTimeTextView = findViewById(R.id.inference_info);
 
     modelSpinner.setOnItemSelectedListener(this);
     deviceSpinner.setOnItemSelectedListener(this);
@@ -562,17 +562,17 @@ public abstract class CameraActivity extends AppCompatActivity
 //    cropValueTextView.setText(cropInfo);
 //  }
 
-  protected void showCameraResolution(String cameraInfo) {
-    cameraResolutionTextView.setText(cameraInfo);
-  }
+//  protected void showCameraResolution(String cameraInfo) {
+//    cameraResolutionTextView.setText(cameraInfo);
+//  }
 
-  protected void showRotationInfo(String rotation) {
-    rotationTextView.setText(rotation);
-  }
+//  protected void showRotationInfo(String rotation) {
+//    rotationTextView.setText(rotation);
+//  }
 
-  protected void showInference(String inferenceTime) {
-    inferenceTimeTextView.setText(inferenceTime);
-  }
+//  protected void showInference(String inferenceTime) {
+//    inferenceTimeTextView.setText(inferenceTime);
+//  }
 
   protected Model getModel() {
     return model;

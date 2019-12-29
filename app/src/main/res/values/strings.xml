@@ -13,7 +13,7 @@
     <string name="model">Model:</string>
     <string-array name="models">
         <item>Float</item>
-        <item>Quantized</item>
+<!--        <item>Quantized</item>-->
     </string-array>
 
     <string name="device">Device:</string>
