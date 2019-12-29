@@ -187,7 +187,7 @@ public abstract class CameraActivity extends AppCompatActivity
     recognition2ValueTextView = findViewById(R.id.detected_item2_value);
 
 //    frameValueTextView = findViewById(R.id.frame_info);
-    cropValueTextView = findViewById(R.id.crop_info);
+//    cropValueTextView = findViewById(R.id.crop_info);
     cameraResolutionTextView = findViewById(R.id.view_info);
     rotationTextView = findViewById(R.id.rotation_info);
     inferenceTimeTextView = findViewById(R.id.inference_info);
@@ -558,9 +558,9 @@ public abstract class CameraActivity extends AppCompatActivity
 //    frameValueTextView.setText(frameInfo);
 //  }
 
-  protected void showCropInfo(String cropInfo) {
-    cropValueTextView.setText(cropInfo);
-  }
+//  protected void showCropInfo(String cropInfo) {
+//    cropValueTextView.setText(cropInfo);
+//  }
 
   protected void showCameraResolution(String cameraInfo) {
     cameraResolutionTextView.setText(cameraInfo);
