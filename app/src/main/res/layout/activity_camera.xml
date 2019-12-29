@@ -33,19 +33,6 @@
             android:background="@android:color/black"
             tools:context="org.tensorflow.lite.ibrahimgoke.cassavadiseasedetect.org.tensorflow.lite.examples.cassavadeseasedetect.CameraActivity" />
 
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:layout_alignParentTop="true"
-            android:background="@color/semi_transparent">
-
-<!--            <ImageView-->
-<!--                android:layout_width="wrap_content"-->
-<!--                android:layout_height="wrap_content"-->
-<!--                android:src="@drawable/tfl2_logo" />-->
-        </androidx.appcompat.widget.Toolbar>
-
     </RelativeLayout>
 
     <include

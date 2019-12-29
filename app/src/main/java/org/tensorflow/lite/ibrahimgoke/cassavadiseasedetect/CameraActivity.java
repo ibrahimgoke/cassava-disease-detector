@@ -37,7 +37,7 @@ import android.os.Trace;
 import androidx.annotation.NonNull;
 import androidx.annotation.UiThread;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
+//import androidx.appcompat.widget.Toolbar;
 import android.util.Size;
 import android.view.Surface;
 import android.view.View;
@@ -53,7 +53,7 @@ import com.google.android.material.bottomsheet.BottomSheetBehavior;
 import java.nio.ByteBuffer;
 import java.util.List;
 
-import org.tensorflow.lite.ibrahimgoke.cassavadiseasedetect.R;
+//import org.tensorflow.lite.ibrahimgoke.cassavadiseasedetect.R;
 import org.tensorflow.lite.ibrahimgoke.cassavadiseasedetect.env.ImageUtils;
 import org.tensorflow.lite.ibrahimgoke.cassavadiseasedetect.env.Logger;
 import org.tensorflow.lite.ibrahimgoke.cassavadiseasedetect.tflite.Classifier.Device;
@@ -112,9 +112,9 @@ public abstract class CameraActivity extends AppCompatActivity
     getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
     setContentView(R.layout.activity_camera);
-    Toolbar toolbar = findViewById(R.id.toolbar);
-    setSupportActionBar(toolbar);
-    getSupportActionBar().setDisplayShowTitleEnabled(false);
+//    Toolbar toolbar = findViewById(R.id.toolbar);
+//    setSupportActionBar(toolbar);
+//    getSupportActionBar().setDisplayShowTitleEnabled(false);
 
     if (hasPermission()) {
       setFragment();

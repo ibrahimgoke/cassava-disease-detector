@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ffa800</color>
-    <color name="colorPrimaryDark">#ff6f00</color>
+    <color name="colorPrimary">#354922</color>
+    <color name="colorPrimaryDark">#354922</color>
     <color name="colorAccent">#425066</color>
+    <color name="colorCassava">#425066</color>
+    <color name="colorSplashBG">#354922</color>
+    <color name="colorSplashText">#CFD8C7</color>
 
     <color name="semi_transparent">#66000000</color>
 </resources>

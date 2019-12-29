@@ -10,10 +10,4 @@
     android:paddingTop="@dimen/cardview_compat_inset_shadow"
     tools:context=".ClassifierActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World by AbhiAndroid!"
-        android:textSize="20sp"
-        android:layout_centerInParent="true"/>
 </RelativeLayout>
