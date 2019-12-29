@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="org.tensorflow.lite.ibrahimgoke.cassavadiseasedetect.ClassifierActivity"
+            android:name="org.tensorflow.lite.ibrahimgoke.cassavadiseasedetect.SplashActivity"
             android:label="@string/activity_name_classification"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -25,5 +25,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ClassifierActivity"/>
     </application>
 </manifest>

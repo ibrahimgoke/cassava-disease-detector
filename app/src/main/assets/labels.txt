@@ -1,5 +1,5 @@
-daisy
-dandelion
-roses
-sunflowers
-tulips
+Cassava Bacteria Blight
+Cassava Brown Streak Disease
+Cassava Green Mite
+Cassava Mosaic Disease
+Healthy Cassava

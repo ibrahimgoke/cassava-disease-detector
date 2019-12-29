@@ -52,7 +52,7 @@ public class ClassifierFloatMobileNet extends Classifier {
     // you can download this file from
     // see build.gradle for where to obtain this file. It should be auto
     // downloaded into assets.
-    return "image_flower-classifier.tflite";
+    return "cassava_disease_classifier_V3.tflite";
   }
 
   @Override

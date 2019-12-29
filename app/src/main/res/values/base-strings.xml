@@ -15,7 +15,7 @@
 -->
 
 <resources>
-    <string name="activity_name_classification">CD Classify</string>
+    <string name="activity_name_classification">CD Classifier</string>
     <string name="activity_name_detection">TFL Detect</string>
     <string name="activity_name_speech">TFL Speech</string>
 </resources>
